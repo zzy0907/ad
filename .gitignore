@@ -20,10 +20,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-env/
-ENV/
+# PyInstaller
+dist/
+build/
 
 # IDE
 .idea/
@@ -31,6 +30,11 @@ ENV/
 *.swp
 *.swo
 
-# Misc
+# 环境
+venv/
+env/
+ENV/
+
+# 系统
 .DS_Store
 Thumbs.db 
